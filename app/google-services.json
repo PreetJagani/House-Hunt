@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "106718313006",
+    "firebase_url": "https://househunt-c60e6.firebaseio.com",
+    "project_id": "househunt-c60e6",
+    "storage_bucket": "househunt-c60e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106718313006:android:2d55f3966acaea55",
+        "android_client_info": {
+          "package_name": "com.example.househunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106718313006-45aqhbcii30biagabglmke16s8tnuaa8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.househunt",
+            "certificate_hash": "09b68edce53fe9b870612e0cf17520cbacced480"
+          }
+        },
+        {
+          "client_id": "106718313006-028p65fahgv116am70aafrgl5vf8u1ms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.househunt",
+            "certificate_hash": "97451227441e39de90fd33593794ce0a8d133531"
+          }
+        },
+        {
+          "client_id": "106718313006-dr1ei9pcfp3t5ppjfn1ut2i8eq31vvrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM362ECMsG4a7ep_1BE-JKadCg2GrYTwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106718313006-dr1ei9pcfp3t5ppjfn1ut2i8eq31vvrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106718313006:android:67737ef163aba3df1d7dbf",
+        "android_client_info": {
+          "package_name": "com.example.househuntadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106718313006-gsm6tnimnhps6qeo8j09nanv7likkirr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.househuntadmin",
+            "certificate_hash": "97451227441e39de90fd33593794ce0a8d133531"
+          }
+        },
+        {
+          "client_id": "106718313006-dr1ei9pcfp3t5ppjfn1ut2i8eq31vvrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM362ECMsG4a7ep_1BE-JKadCg2GrYTwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106718313006-dr1ei9pcfp3t5ppjfn1ut2i8eq31vvrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106718313006:android:79855e5f9ddfeb6c1d7dbf",
+        "android_client_info": {
+          "package_name": "com.example.recyclerview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106718313006-t8g2ltcfua7q8465r648ja695evotui3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recyclerview",
+            "certificate_hash": "97451227441e39de90fd33593794ce0a8d133531"
+          }
+        },
+        {
+          "client_id": "106718313006-dr1ei9pcfp3t5ppjfn1ut2i8eq31vvrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM362ECMsG4a7ep_1BE-JKadCg2GrYTwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106718313006-dr1ei9pcfp3t5ppjfn1ut2i8eq31vvrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".houseDetail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="-20dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <com.like.LikeButton
+                android:layout_marginTop="10dp"
+                android:layout_alignEnd="@id/imageView"
+                android:layout_marginRight="10dp"
+                android:layout_below="@id/imageView"
+                android:id="@+id/likeBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:icon_size="15dp"
+                app:icon_type="heart" />
+
+
+            <LinearLayout
+                android:id="@+id/nameLinearLayout"
+                android:layout_below="@id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/text_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/text_address"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="address"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/text_price"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="5dp"
+                    android:text="price"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/text_space"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="space"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/text_rating"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/ic_star_black_24dp"
+                    android:drawablePadding="3dp"
+                    android:text="Rating"
+                    android:textColor="@color/yellow"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/text_des"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Description"
+                    android:textSize="20dp" />
+
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:layout_below="@+id/nameLinearLayout"
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:text="Call Agent"
+                android:textColor="@color/WhiteColor"
+                android:textSize="20dp"
+                android:background="@color/design_default_color_primary"
+                android:textAllCaps="false"/>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

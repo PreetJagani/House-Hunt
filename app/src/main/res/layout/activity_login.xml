@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+
+        android:gravity="bottom"
+        android:background="@drawable/background_gradient"
+        >
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_height="wrap_content"
+
+        android:layout_width="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="30dp"
+        >
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="invisible"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            app:errorEnabled="true"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="10"
+                android:hint="Phone Number"
+
+                />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true"
+            android:layout_below="@+id/phoneNumber"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+
+                android:inputType="textPassword"
+
+                />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_below="@id/password"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/sign_in"
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_style"
+                android:onClick="Login"
+                android:text="Log In"
+
+                android:textAllCaps="false"
+                android:textSize="23dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/WhiteColor"
+
+
+
+
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/signUpLabel"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:clickable="true"
+            android:onClick="nextActivity"
+            android:text="Dont't Have acccount?? Click here to sign Up"
+            android:textColor="@color/BLueColour"
+            android:textSize="15dp" />
+
+
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

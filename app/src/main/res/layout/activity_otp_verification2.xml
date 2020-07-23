@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".otpVerification2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <EditText
+                android:id="@+id/Otp1"
+                android:inputType="number"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:maxLength="1"
+                android:textAlignment="center"/>
+
+
+            <EditText
+                android:id="@+id/Otp2"
+                android:inputType="number"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_toRightOf="@+id/Otp1"
+                android:layout_marginLeft="10dp"
+                android:maxLength="1"/>
+
+
+
+            <EditText
+                android:id="@+id/Otp3"
+                android:inputType="number"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_toRightOf="@+id/Otp2"
+                android:layout_marginLeft="10dp"
+                android:maxLength="1"/>
+
+
+            <EditText
+                android:id="@+id/Otp4"
+                android:inputType="number"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_toRightOf="@+id/Otp3"
+                android:layout_marginLeft="10dp"
+                android:maxLength="1"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/label1"
+            android:text="A One Time Password has been send to your mobile number. Please enter the OTP to continue "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_below="@+id/r1"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            />
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:text="Submit"
+            android:textColor="@color/WhiteColor"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/btn_style"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_below="@+id/label1"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="Submit"/>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
