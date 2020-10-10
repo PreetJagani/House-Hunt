@@ -1,3 +1,21 @@
+## About project
+This project is like popular apps like magicbricks and area24, House Hunt is applications which will attract to user and customers with optimizing and command over their favorite houses. If someone is strange to any city then they do not want to worry about where he/she has to live, house hunt will do exactly for her. This application will help user to find his/her dream house. For the admin perspective, if he wants to add new house or apartment then he will add it.
+
+## Features
+- Login system with OTP verification
+- Home page to find trending houses
+- Search page
+- Add house to user's favorite list
+- Admin side to add house to database
+
+## API and Databse use
+- Fast2Sms to send otp
+- Firebase to store data
+
+### Contact me on my email preetjagani@gmail.com in case you want to use this project
+
+# Demo of functinality
+
 ## Welcome page
 
 ![Wecome image](https://firebasestorage.googleapis.com/v0/b/househunt-c60e6.appspot.com/o/Github%20Photos%2F2.png?alt=media&token=21bd6b8c-086e-4be9-8780-28a0be2467cf)
@@ -59,9 +77,3 @@ If user likes any house and don’t want to remember then he/she will be added i
 ![f1](https://firebasestorage.googleapis.com/v0/b/househunt-c60e6.appspot.com/o/Github%20Photos%2F11.png?alt=media&token=1a50f2fa-8204-407d-b8a2-86502f475684) ![f2](https://firebasestorage.googleapis.com/v0/b/househunt-c60e6.appspot.com/o/Github%20Photos%2F12.png?alt=media&token=d5bb4fd3-73e7-4089-a914-84c7e87b704b)
 
 After adding the house at favorite list it will be seen at favorite page as you can see here.
-
-## Admin Application
-
-![admin](https://firebasestorage.googleapis.com/v0/b/househunt-c60e6.appspot.com/o/Github%20Photos%2F13.png?alt=media&token=d1fc49d2-c336-437f-80e3-470d63bab9e8)
-
-With the help of this app we can house by dynamically it will stored at firebase database in cloud storage. It will good for both of us one is owner and also for admin to store the data in privacy. With this app admin can add house details at any time.
